@@ -1,0 +1,20 @@
+.cabecalho{
+    align-items: center;
+    background-color: #BDB76B;
+    display: flex;
+    padding: 1rem;
+
+    &__img{
+        width: 50%;
+        
+        &_logo{
+            width: 5rem;
+        }
+    }
+
+    &__input{
+        border-radius: 18px;
+        padding: 0.75rem 0.25rem;
+        width: 25%;
+    }
+}
